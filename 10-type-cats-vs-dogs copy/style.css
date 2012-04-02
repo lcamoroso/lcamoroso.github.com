@@ -72,6 +72,7 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
+
 @font-face {
     font-family: 'LeagueGothicRegular';
     src: url('fonts/League_Gothic-webfont.eot');
@@ -85,6 +86,14 @@ html[xmlns] .clearfix { display: block; }
 }
 
 
+header{ 
+	position:relative;
+	width:960px;
+	margin:0 auto;
+	height:20px;
+	padding-left:450px;
+	
+   }
 header h2{
 	float:left;
 	font-family:'LeagueGothicRegular';
@@ -94,16 +103,27 @@ header h2{
 	
 }
 
-body{
-	width:100%;
-	margin:0 auto;
+h3{
+	float:left;
+	font-family:Georgia;
+	color:#E8E8E8 ;
+	font-style:italic;
+	font-weight:bold;
+	font-size:60px;
+	border-top:3px double lightgrey;
+	border-bottom:3px double lightgrey;
+    height:30px;
+	padding:10px;
+	margin-top:35px;
+	line-height:20px;
+	
 	
 }
 
 
 
 article img{
-	width:400px;
+	width:380px;
 	position:relative;
 	padding-bottom:10px;
 	padding-top:20px;
@@ -117,7 +137,7 @@ article img{
 article{
 	
 	float:left;
-	width:400px;
+	width:380px;
 	margin:20px;
 }
 
@@ -129,6 +149,9 @@ article{
 nav ul{
 	width:960px;
 	margin:0 auto;
+	float:left;
+	text-align:center;
+	padding-left:250px;
 }
 
 nav li{
@@ -162,6 +185,7 @@ p{
 }
 
 #menu-wrapper{
+margin-top:100px;
 height:30px;
 background-color:white;
 border-top: 3px solid black;
@@ -205,7 +229,7 @@ a{
 }
 
 
-}
+
 
 
 

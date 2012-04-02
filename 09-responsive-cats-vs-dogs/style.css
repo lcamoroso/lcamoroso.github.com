@@ -72,53 +72,40 @@ table {
 html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
-@font-face {
-    font-family: 'LeagueGothicRegular';
-    src: url('fonts/League_Gothic-webfont.eot');
-    src: url('fonts/League_Gothic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/League_Gothic-webfont.woff') format('woff'),
-         url('fonts/League_Gothic-webfont.ttf') format('truetype'),
-         url('fonts/League_Gothic-webfont.svg#LeagueGothicRegular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-header h2{
-	float:left;
-	font-family:'LeagueGothicRegular';
-	font-size:100px;
-	text-transform:uppercase;
-	padding:10px;
-	
-}
-
 body{
 	width:100%;
 	margin:0 auto;
 	
 }
 
-
-
-article img{
-	width:400px;
+header img{
 	position:relative;
-	padding-bottom:10px;
-	padding-top:20px;
+	top:25%;
+	left:25%;
+	padding:20px;
+	padding-top:30px;
 }
 
-#main-content{
-	width:960px;
-	margin:0 auto;
-	}
-	
+img{
+	width:60%;
+	position:relative;
+	margin-bottom:10px;
+	padding:15px;
+	margin-top:30px;
+}
+
+article img{
+	width:80%;
+	position:relative;
+	margin-bottom:10px;
+	padding:15px;
+	margin-top:30px;
+}
+
 article{
-	
 	float:left;
-	width:400px;
-	margin:20px;
+	width:40%;
+	margin:10px;
 }
 
 #top-nav{
@@ -127,20 +114,19 @@ article{
 }
 
 nav ul{
-	width:960px;
+	width:100%;
 	margin:0 auto;
 }
 
 nav li{
-	
 	float:left;
+	border-bottom:3px solid black;
+	border-top:3px solid black;
 	width:150px;
 	list-style:disc;
 	padding:5px;
 	text-align:center;
 }
-
-
 
 nav li:first-child{
 	list-style:none;
@@ -150,33 +136,19 @@ h1{
 	position:relative;
 	font-family:Georgia;
 	font-weight:bold;
-	font-size:20pt;
-	margin-bottom: 10px;
+	font-size:1.2em;
 }
 
 p{
 	font-family:georgia;
-	font-size:12pt;
+	font-size:.8em;
 	line-height:1.2em;
 	
 }
 
-#menu-wrapper{
-height:30px;
-background-color:white;
-border-top: 3px solid black;
-border-bottom: 3px solid black;
-}
-
-#footer-wrapper{
-	clear:both;
-	border-top:3px solid black;
-	}
 
 
 site-footer{
-	width:960px;
-	margin:0 auto;
 	position:relative;
 	clear:both;
 	
@@ -184,21 +156,19 @@ site-footer{
 
 p1{
 	float:left;
-	font-size:8pt;
+	font-size:.7em;
 	margin:17px;
 }
 
 p2{
 	float:right;
-	font-size:8pt;
+	font-size:.7em;
 	margin:17px;
-	
-	
 }
 
 a{
 	font-family:georgia;
-	font-size:16pt;
+	font-size:1.1em;
 	font-weight:bold;
 	text-decoration:none;
 	color:black;
@@ -206,6 +176,5 @@ a{
 
 
 }
-
 
 

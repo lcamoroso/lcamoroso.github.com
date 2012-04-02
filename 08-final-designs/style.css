@@ -87,8 +87,8 @@ background-color: #1E1E1E;
 
 header#site-header{
 position:relative;
-height:100px;
-padding:5px;
+height:190px;
+padding: 15px 5px 0px 200px;
 margin:0 auto;
 width:1140px;
 }
@@ -107,11 +107,11 @@ background-color:#414042;
 
 
 nav#main-menu{
-position:relative;
-top:0px;
-right:0px;
+position:absolute;
+top:120px;
+right:186px;
 height:60px;
-background-color:black;
+background: -webkit-gradient(linear, left top, left bottom, from(#414042), to(#000));;
 border-top-left-radius:10px;
 border-top-right-radius:10px;
 padding:0 10px;
@@ -125,13 +125,14 @@ border-bottom:3px solid #414042;
 nav#main-menu ul li{
 display:block;
 float:left;
-padding: 17px 20px 17px 20px;
-border-right:1px solid #CCC;
+padding: 25px 20px 17px 20px;
+border-right:2px solid black;
 }
+
+#main-menu li a:hover { color:#F5841F; }
 
 nav#main-menu ul li a{
 text-decoration:none;
-display:block;
 color:white;
 padding: 5px 5px;
 letter-spacing:1px;
@@ -140,7 +141,7 @@ letter-spacing:1px;
 
 #main-content img{
 width:960px;
-padding-top:20px;
+padding-top:5px;
 }
 
 #button img{
